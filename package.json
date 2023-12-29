@@ -1,0 +1,27 @@
+{
+    "name": "bot-wpp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node app.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@supabase/supabase-js": "^2.39.1",
+        "@types/qrcode-terminal": "^0.12.2",
+        "base64-arraybuffer": "^1.0.2",
+        "cpf-cnpj-validator": "^1.0.3",
+        "jimp": "^0.22.10",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.33.1",
+        "tsc": "^2.0.4",
+        "typescript": "^5.3.3",
+        "venom-bot": "^5.0.21",
+        "whatsapp-web.js": "^1.23.0"
+    },
+    "devDependencies": {
+        "@types/spinnies": "^0.5.3"
+    }
+}
