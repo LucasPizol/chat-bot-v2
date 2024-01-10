@@ -37,7 +37,8 @@ export class SendMessage {
         user.chatLevel = "Autenticado";
         client.sendMessage(
           message.from,
-          `Ótimo, você foi cadastrado. Digite agora uma das opções para prosseguir:
+          `Ótimo, você foi cadastrado. Pedirei sempre duas fotos, uma do código e uma da data de venda da bateria, favor seguir as instruções.
+Digite agora uma das opções para prosseguir:
 1 - Cadastrar certificado,
 2 - Consultar quantidade de certificados.`
         );

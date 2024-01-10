@@ -39,7 +39,7 @@ export class User {
   }
 
   async cadastrarCertificado() {
-    if (!this.blob1 || !this.blob2) return { data: null, error: "Ocorreu um erro" };
+    if (!this.blob1 || !this.blob2) return { data: {}, error: "Ocorreu um erro" };
 
     const fileName1 = `${this.cpf} - ${this.name} - ${Math.ceil(Math.random() * 30000)}`;
     const fileName2 = `${this.cpf} - ${this.name} - ${Math.ceil(Math.random() * 30000)}`;

@@ -10,7 +10,7 @@ export class PrimeiroCertificado {
   static async sendMessage({ client, message, blob }: Props) {
     client.sendMessage(
       message.from,
-      `Ok!, agora me envie a foto de trás de seu certificado. (digite 0 para cancelar)`
+      `Ok! Agora me envie a foto de onde mostra a *DATA DA VENDA.* (digite 0 para cancelar)`
     );
   }
 }

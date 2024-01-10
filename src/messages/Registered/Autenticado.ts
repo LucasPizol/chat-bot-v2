@@ -12,7 +12,7 @@ export class Autenticado {
   static async sendMessage({ client, message, user }: Props) {
     switch (Number(message.body)) {
       case 1:
-        await client.sendMessage(message.from, `Certo, me envie a foto da parte da frente de seu certificado. (digite 0 para cancelar)`);
+        await client.sendMessage(message.from, `Certo, me envie a foto da parte da frente de seu certificado, onde mostra o *CÓDIGO.* (digite 0 para cancelar)`);
         user.chatLevel = "Enviando primeiro certificado.";
         break;
       case 2:
